@@ -13,10 +13,10 @@ class Bio extends React.Component {
       <div
         style={{
           display: 'flex',
-          marginBottom: rhythm(2.5),
+          marginBottom: rhythm(1),
         }}
       >
-        <img
+        {/* <img
           src={profilePic}
           alt={`Micah Hobbs`}
           style={{
@@ -25,12 +25,10 @@ class Bio extends React.Component {
             width: rhythm(2),
             height: rhythm(2),
           }}
-        />
+        /> */}
         <p>
-          Writings by <strong>Micah Hobbs</strong> who lives and works Canberra{' '}
-          <a href="https://twitter.com/micahthobbs">
-            Follow me on Twitter
-          </a>
+          Welcome to my site! Living and working Canberra. See some of my <a href="https://github.com/micahthobbs" target='_blank'>projects</a>, or get in <a href='mailto: micahthobbs@gmail.com'>contact</a>{' '}
+          <a href="https://twitter.com/micahthobbs"></a>
         </p>
       </div>
     )
